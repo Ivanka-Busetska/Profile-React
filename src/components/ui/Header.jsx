@@ -16,9 +16,10 @@ import {useState} from "react";
 import { Link } from "react-router-dom";
 
 const pages = [
-    {title: 'Про мене', path: '/Profile-React/about'},
-    {title: 'Моє місто', path: '/Profile-React/my-city'},
-    {title: 'Моє майбутнє', path: '/Profile-React/my-future'}
+    {title: 'Головна', path: '/'},
+    {title: 'Про мене', path: '/about'},
+    {title: 'Моє місто', path: '/my-city'},
+    {title: 'Моє майбутнє', path: '/my-future'}
 ];
 
 export function Header() {
