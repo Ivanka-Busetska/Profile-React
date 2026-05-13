@@ -8,10 +8,10 @@ import MyFuturePage from "./pages/MyFuturePage";
 const AppRoutes = () => {
     return (
         <Routes>
-            <Route path={"/"} element={<HomePage/>} />
-            <Route path={'about'} element={<AboutPage/>}/>
-            <Route path={'my-city'} element={<MyCityPage/>}/>
-            <Route path={'my-future'} element={<MyFuturePage/>}/>
+            <Route path={"/Profile-React"} element={<HomePage/>} />
+            <Route path={'Profile-React/about'} element={<AboutPage/>}/>
+            <Route path={'Profile-React/my-city'} element={<MyCityPage/>}/>
+            <Route path={'Profile-React/my-future'} element={<MyFuturePage/>}/>
         </Routes>
     );
 };
